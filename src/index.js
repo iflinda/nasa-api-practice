@@ -1,12 +1,13 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./styles/global.css";
-import Hero from "./pages/hero";
+import Navigation from "./components/navigation";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Hero />
-  </React.StrictMode>,
+  <Router>
+    <Navigation />
+  </Router>,
   document.getElementById("root")
 );
