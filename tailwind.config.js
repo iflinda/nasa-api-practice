@@ -16,7 +16,7 @@ module.exports = {
         logoHeroWidth: "240px",
         likesWidth: "40px",
         spinnerWidth: "150px",
-        imageWidth: "560px",
+        imageWidth: "460px",
         imageWidthMobile: "300px",
       },
       height: {
@@ -24,14 +24,14 @@ module.exports = {
         logoHeroHeight: "60px",
         likesHeight: "30px",
         spinnerHeight: "150px",
-        imageHeight: "560px",
+        imageHeight: "460px",
         imageHeightMobile: "300px",
       },
       zIndex: {
         background: "-10",
       },
       spacing: {
-        marginHeroLogo: "-14%",
+        marginHeroLogo: "-11%",
         marginHeroLogoMobile: "-20%",
         imagesTop: "120px",
       },

@@ -8,7 +8,7 @@ import "../styles/global.css";
 
 export default function navigation() {
   return (
-    <nav className="absolute bg-black flex justify-center h-logoNavHeight p-1 z-10">
+    <nav className="top-0 flex justify-center h-logoNavHeight z-10">
       <ul className="flex justify-center w-screen">
         <Link to="/">
           <li key="hero">

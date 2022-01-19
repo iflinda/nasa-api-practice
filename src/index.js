@@ -2,12 +2,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./styles/global.css";
 import Navigation from "./components/navigation";
+import "./styles/global.css";
 
 ReactDOM.render(
-  <Router>
-    <Navigation />
-  </Router>,
+  <div>
+    <Router>
+      <Navigation />
+    </Router>
+  </div>,
   document.getElementById("root")
 );
