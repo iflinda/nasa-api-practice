@@ -16,12 +16,16 @@ module.exports = {
         logoHeroWidth: "240px",
         likesWidth: "40px",
         spinnerWidth: "150px",
+        imageWidth: "560px",
+        imageWidthMobile: "300px",
       },
       height: {
         logoNavHeight: "65px",
         logoHeroHeight: "60px",
         likesHeight: "30px",
         spinnerHeight: "150px",
+        imageHeight: "560px",
+        imageHeightMobile: "300px",
       },
       zIndex: {
         background: "-10",
