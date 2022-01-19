@@ -1,9 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&family=Sen:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body {
     padding: 0;
     margin: 0;
     background-color: #000014;
+    overflow: hidden;
 }
+
+h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.65rem;
+    color: #B9B9B9;
+}
+
+h2 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.125rem;
+    color: #000000;
+}
+
+.button {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+  }
