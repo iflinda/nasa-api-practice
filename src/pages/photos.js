@@ -8,7 +8,7 @@ import "../styles/global.css";
 
 export default function Photos() {
   return (
-    <section className="fixed flex flex-col justify-center mt-imagesTop">
+    <section className="absolute flex flex-col justify-center mt-imagesTop">
       <Photo />
     </section>
   );
