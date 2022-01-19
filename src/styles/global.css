@@ -7,12 +7,12 @@
 html {
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: #000014;
 }
 
 body {
     padding: 0;
     margin: 0;
-    background-color: #000014;
 }
 
 h1 {
@@ -38,8 +38,14 @@ p {
     color: #FFFFFF;
 }
 
+.likeButton {
+    font-family: 'Sarala', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
 @media only screen and (max-width: 640px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
   }

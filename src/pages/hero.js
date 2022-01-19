@@ -25,7 +25,7 @@ export default function hero() {
       <Link to="/images">
         <li
           key="images"
-          className="button inline p-1 px-5 bg-shootingStar rounded-lg"
+          className="button inline p-3 px-5 bg-shootingStar rounded-lg"
         >
           Start Browsing
         </li>
