@@ -15,11 +15,13 @@ module.exports = {
         logoNavWidth: "140px",
         logoHeroWidth: "240px",
         likesWidth: "40px",
+        spinnerWidth: "150px",
       },
       height: {
         logoNavHeight: "65px",
         logoHeroHeight: "60px",
         likesHeight: "30px",
+        spinnerHeight: "150px",
       },
       zIndex: {
         background: "-10",
@@ -27,6 +29,7 @@ module.exports = {
       spacing: {
         marginHeroLogo: "-14%",
         marginHeroLogoMobile: "-20%",
+        imagesTop: "120px",
       },
       colors: {
         shootingStar: "#FC636B",

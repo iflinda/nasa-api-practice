@@ -1,8 +1,10 @@
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import Hero from "../pages/hero";
+import Photos from "../pages/photos";
 import Logo from "../images/logo.svg";
 import Likes from "../images/likes.svg";
+import "../styles/global.css";
 
 export default function navigation() {
   return (
@@ -28,6 +30,7 @@ export default function navigation() {
         </Link>
         <Routes>
           <Route exact path="/" element={<Hero />} />
+          <Route path="/images/" element={<Photos />} />
         </Routes>
       </ul>
     </nav>
