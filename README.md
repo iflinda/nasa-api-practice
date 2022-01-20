@@ -6,12 +6,12 @@
 This project was submitted for the Front End Evelopment Intern Challenge for Shopify in 2022. Our task was to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
 
 ## Live Demo
-![image](https://user-images.githubusercontent.com/68607795/150318369-ef27c4f3-0bf1-4383-9d65-52c1e1c10368.png)
-![image](https://user-images.githubusercontent.com/68607795/150320468-8106fbf8-0ac7-4b25-a396-acc399388eed.png)
+![Spaceroid Landing Page Live Demo that has an astronaut on a reddish planet](https://user-images.githubusercontent.com/68607795/150409855-6489abb4-78cc-46a1-9ef5-2838d52ecdea.png)
+![Spaceroid API Page Live Demo of all the results showing from the NASA API](https://user-images.githubusercontent.com/68607795/150320468-8106fbf8-0ac7-4b25-a396-acc399388eed.png)
 
 
 ## Figma Ideation
-![image](https://user-images.githubusercontent.com/68607795/150318292-cc30498c-bdfb-46bf-8313-253503fd0ba6.png)
+![Spaceroid Figma Prototypes on Figma](https://user-images.githubusercontent.com/68607795/150318292-cc30498c-bdfb-46bf-8313-253503fd0ba6.png)
 
 ## Notables
 
@@ -23,21 +23,21 @@ Based on the feedback that I received from the tool, I was able to better pinpoi
 
 ### Landing Page
 
-![PC Landing](https://user-images.githubusercontent.com/68607795/150319384-1dcc00d8-fe2a-4322-b540-34fe25281c35.png)
+![Lighthouse Results for Desktop Landing Page](https://user-images.githubusercontent.com/68607795/150319384-1dcc00d8-fe2a-4322-b540-34fe25281c35.png)
 
 ### API Page
 
-![PC API](https://user-images.githubusercontent.com/68607795/150319492-cfaeb2c7-0f64-4e64-b702-f6e50bd042b1.png)
+![Lighthouse Results for Desktop API Page](https://user-images.githubusercontent.com/68607795/150319492-cfaeb2c7-0f64-4e64-b702-f6e50bd042b1.png)
 
 ### My scores for mobile:
 
 **Landing Page**
 
-![Mobile Landing](https://user-images.githubusercontent.com/68607795/150320997-88c3685f-c7ee-43bf-911d-3c2de47605c8.png)
+![Lighthouse Results for Mobile Landing Page ](https://user-images.githubusercontent.com/68607795/150320997-88c3685f-c7ee-43bf-911d-3c2de47605c8.png)
 
 **API Page **
 
-![Mobile API](https://user-images.githubusercontent.com/68607795/150321551-c85344af-bf1b-48f1-abc9-5f738becd03c.png)
+![Lighthouse Results for Mobile API Page](https://user-images.githubusercontent.com/68607795/150321551-c85344af-bf1b-48f1-abc9-5f738becd03c.png)
 
 
 ## Technologies
