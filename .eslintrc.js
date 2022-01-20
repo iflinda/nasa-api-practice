@@ -19,6 +19,7 @@ module.exports = {
   rules: {
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [0],
+    "no-param-reassign": [2, { props: false }],
     "import/extensions": "off",
     "prettier/prettier": [
       "warn",
