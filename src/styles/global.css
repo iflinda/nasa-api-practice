@@ -6,14 +6,13 @@
 
 html {
     overflow-x: hidden;
-    background-color: #000014;
 }
 
 body {
     padding: 0;
     margin: 0;
     background: linear-gradient(-45deg, #000014, #1F2075, #230937, #632793);
-	background-size: 400% 400%;
+	background-size: 1000% 400%;
 	animation: gradient 30s ease infinite;
 	height: 100vh;
 }
@@ -47,25 +46,16 @@ p {
     color: #FFFFFF;
 }
 
-.tagline {
-    top: 65%;
-}
-
 .loader {
     border-top-color: #E3414A;
     -webkit-animation: spinner 1.5s linear infinite;
     animation: spinner 1.5s linear infinite;
 }
 
-#hero{
-    animation: float 10s linear infinite;
-}
-
 button:hover {
     background-color: 742F58;
     animation: float 5s linear infinite;
 }
-
   
 @-webkit-keyframes spinner {
     0% { -webkit-transform: rotate(0deg); }

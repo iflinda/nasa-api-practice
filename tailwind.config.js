@@ -18,6 +18,7 @@ module.exports = {
                 spinnerWidth: "150px",
                 imageWidth: "460px",
                 imageWidthMobile: "300px",
+                browseLinkWidth: "215px",
             },
             height: {
                 logoNavHeight: "30px",
@@ -32,6 +33,7 @@ module.exports = {
             },
             spacing: {
                 imagesTop: "50px",
+                logoTop: "70vh",
             },
             colors: {
                 shootingStar: "#E3414A",
