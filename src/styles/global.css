@@ -18,7 +18,7 @@ body {
 h1 {
     font-family: 'Sen', sans-serif;
     font-size: 1.65rem;
-    color: #B9B9B9;
+    color: #d3d3d3;
 }
 
 h2 {
@@ -43,6 +43,29 @@ p {
     font-size: 1rem;
     color: #FFFFFF;
 }
+
+.tagline {
+    top: 60%;
+}
+
+@keyframes wiggle {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 2px);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-1px, -5px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(2x, 0, 0);
+    }
+}
+
 
 @media only screen and (max-width: 640px) {
     h1 {
