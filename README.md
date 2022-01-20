@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Front End Development Intern Challenge for Shopify 2022
+🌐 [Website Link](https://shopify-2022-internship.herokuapp.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎨 [Figma Link](https://www.figma.com/file/5whvoEmtXZCiNrVxA8pkcS/Shopify-Front-End-Developer-Intern-Challenge?node-id=0%3A1)
 
-## Available Scripts
+This project was submitted for the Front End Evelopment Intern Challenge for Shopify in 2022. Our task was to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
 
-In the project directory, you can run:
+## Live Demo
+![image](https://user-images.githubusercontent.com/68607795/150318369-ef27c4f3-0bf1-4383-9d65-52c1e1c10368.png)
+![image](https://user-images.githubusercontent.com/68607795/150320468-8106fbf8-0ac7-4b25-a396-acc399388eed.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Figma Ideation
+![image](https://user-images.githubusercontent.com/68607795/150318292-cc30498c-bdfb-46bf-8313-253503fd0ba6.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Notables
 
-### `npm test`
+Since Shopify is focuses on providing their clients with clean UI & UX while also having strong values in accessibility, I wanted to make sure that my application kept this in mind. I was introduced to a great tool called Lighthouse in the Chrome Developer tools, and I was able to really narrow down what areas that I had to focus on.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Based on the feedback that I received from the tool, I was able to better pinpoint areas that I had overlooked while developing the application. By the end of the submission, I had a web application that scored well in SEO, Accessible, and Best Practices.
 
-### `npm run build`
+**My scores for the desktop:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![PC Landing](https://user-images.githubusercontent.com/68607795/150319384-1dcc00d8-fe2a-4322-b540-34fe25281c35.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### API Page
 
-### `npm run eject`
+![PC API](https://user-images.githubusercontent.com/68607795/150319492-cfaeb2c7-0f64-4e64-b702-f6e50bd042b1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### My scores for mobile:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Landing Page**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Mobile Landing](https://user-images.githubusercontent.com/68607795/150320997-88c3685f-c7ee-43bf-911d-3c2de47605c8.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**API Page **
 
-## Learn More
+![Mobile API](https://user-images.githubusercontent.com/68607795/150321551-c85344af-bf1b-48f1-abc9-5f738becd03c.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies
 
-### Code Splitting
+### Languages
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) & Axios
 
-### Analyzing the Bundle Size
+### Design
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Tools & Platforms
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 1. Clone the Repository.
+```
+git clone https://github.com/iflinda/nasa-api-practice.git
+```
 
-### Deployment
+### 2. Open the folder from the terminal.
+```
+cd nasa-api-practice
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3.  Install any dependencies.
+```
+npm install
+```
 
-### `npm run build` fails to minify
+### 4. Build the production environment.
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5. Run the application on a local server.
+```
+npm start
+```
+
+### 6. Open a web browser and type: 
+```
+http://localhost:3000/
+
+```
+
+### 7. Enjoy! 🎉
+
+## Connect with Me
+
+Feel free to connect with me, I'm always looking to meet new developers.
+
+📧 [informlinda@gmal.com](mailto:informlinda@gmail.com)
+
+🌐 [Website](https://www.lindaful.com)
+
+💼 [LinkedIn](https://www.linkedin.com/in/iflinda)
+
+💻 [Devpost](https://devpost.com/iflinda)
