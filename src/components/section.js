@@ -41,9 +41,11 @@ export default class Section extends Component {
     }
 
     async componentDidMount() {
+        this.axiosCancelSource = axios.CancelToken.source();
         axios
             .get(
-                `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=100`
+                `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=100`,
+                { cancelToken: this.axiosCancelSource.token }
             )
             .then((res) => {
                 const { data } = res;
@@ -58,6 +60,10 @@ export default class Section extends Component {
                 this.setState({ hasError: true });
                 this.setState({ errorMessage: err });
             });
+    }
+
+    async componentWillUnmount() {
+        this.axiosCancelSource.cancel("Axios request canceled.");
     }
 
     likePhoto(index) {
