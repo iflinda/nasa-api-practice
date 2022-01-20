@@ -3,10 +3,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navigation from "./components/navigation";
-import Hero from "./pages/hero";
-import Main from "./pages/main";
-import "./styles/global.css";
+import Navigation from "../components/navigation";
+import Hero from "./hero";
+import Main from "./main";
+import "../styles/global.css";
 
 ReactDOM.render(
     <div>
