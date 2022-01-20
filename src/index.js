@@ -9,23 +9,14 @@ import Main from "./pages/main";
 import "./styles/global.css";
 
 ReactDOM.render(
-  // <Router>
-  //   <Navigation />
-  //   <Header />
-  //   <Main />
-  //   <Switch>
-  //     <Route exact path="/" element={<Header />} />
-  //     <Route path="/main/" element={<Main />} />
-  //   </Switch>
-  // </Router>,
-  <div>
-    <BrowserRouter>
-      <Navigation />
-      <Routes>
-        <Route exact path="/" element={<Hero />} />
-        <Route path="/main/" element={<Main />} />
-      </Routes>
-    </BrowserRouter>
-  </div>,
-  document.getElementById("root")
+    <div>
+        <BrowserRouter>
+            <Navigation />
+            <Routes>
+                <Route exact path="/" element={<Hero />} />
+                <Route path="/main/" element={<Main />} />
+            </Routes>
+        </BrowserRouter>
+    </div>,
+    document.getElementById("root")
 );
