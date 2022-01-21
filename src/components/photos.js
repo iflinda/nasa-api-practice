@@ -29,7 +29,7 @@ function changeButton(id) {
     }
 }
 
-export default class Section extends Component {
+export default class Photos extends Component {
     constructor() {
         super();
         this.state = {
@@ -121,13 +121,6 @@ export default class Section extends Component {
         if (this.state.hasError) {
             <h1>Oh no! Something has went wrong. 😢</h1>;
         }
-        return (
-            <section>
-                <h1 className="text-center m-6">
-                    Astronomy Pictures of the Day
-                </h1>
-                {this.loadPage()}
-            </section>
-        );
+        return <div>{this.loadPage()}</div>;
     }
 }

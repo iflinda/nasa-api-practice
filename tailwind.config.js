@@ -7,8 +7,9 @@ module.exports = {
     ],
     theme: {
         screens: {
-            mobile: "360px",
+            mobile: "0px",
             sm: "640px",
+            lg: "1024px",
         },
         extend: {
             width: {
@@ -34,6 +35,7 @@ module.exports = {
             spacing: {
                 imagesTop: "50px",
                 logoTop: "70vh",
+                logoTopMobile: "55vh",
             },
             colors: {
                 shootingStar: "#E3414A",

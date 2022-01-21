@@ -34,6 +34,10 @@ p {
     font-size: 1rem;
 }
 
+#hero {
+    animation: float 10s linear infinite;
+}
+
 .button {
     font-family: 'Sen', sans-serif;
     font-size: 1.5rem;
@@ -54,7 +58,7 @@ p {
 
 button:hover {
     background-color: 742F58;
-    animation: float 5s linear infinite;
+    animation: float 5s linear infinite, shadow 5s linear infinite;
 }
   
 @-webkit-keyframes spinner {
@@ -81,16 +85,25 @@ button:hover {
 
 @keyframes float {
 	0% {
-		box-shadow: 0 5px 10px 0px #C4B9C7;
 		transform: translatey(0px);
 	}
 	50% {
-		box-shadow: 0 15px 10px 0px #C4B9C7;
 		transform: translatey(-10px);
 	}
 	100% {
-		box-shadow: 0 5px 10px 0px #C4B9C7;
 		transform: translatey(0px);
+	}
+}
+
+@keyframes shadow {
+    0% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
+	}
+	50% {
+		box-shadow: 0 15px 10px 0px #C4B9C7;
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px #C4B9C7;
 	}
 }
 

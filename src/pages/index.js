@@ -4,18 +4,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "../components/navigation";
-import Hero from "./hero";
-import Main from "./main";
+import Footer from "../components/footer";
+import LandingPage from "./landingPage";
+import Images from "./images";
 import "../styles/global.css";
 
 ReactDOM.render(
-    <div>
+    <div id="container">
         <BrowserRouter>
             <Navigation />
             <Routes>
-                <Route exact path="/" element={<Hero />} />
-                <Route path="/main/" element={<Main />} />
+                <Route exact path="/" element={<LandingPage />} />
+                <Route path="/images/" element={<Images />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     </div>,
     document.getElementById("root")
