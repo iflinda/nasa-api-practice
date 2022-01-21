@@ -35,7 +35,7 @@ Based on the feedback that I received from the tool, I was able to better pinpoi
 
 ![Lighthouse Results for Mobile Landing Page ](https://user-images.githubusercontent.com/68607795/150320997-88c3685f-c7ee-43bf-911d-3c2de47605c8.png)
 
-**API Page **
+**API Page**
 
 ![Lighthouse Results for Mobile API Page](https://user-images.githubusercontent.com/68607795/150321551-c85344af-bf1b-48f1-abc9-5f738becd03c.png)
 
