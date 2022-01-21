@@ -6,7 +6,7 @@
 This project was submitted for the Front End Evelopment Intern Challenge for Shopify in 2022. Our task was to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
 
 ## Live Demo
-![Spaceroid Landing Page Live Demo that has an astronaut on a reddish planet](https://user-images.githubusercontent.com/68607795/150409855-6489abb4-78cc-46a1-9ef5-2838d52ecdea.png)
+![Spaceroid Landing Page Live Demo that has an astronaut on a reddish planet](https://user-images.githubusercontent.com/68607795/150509033-b619bc54-c351-44f2-9ebb-b120fde37237.png)
 ![Spaceroid API Page Live Demo of all the results showing from the NASA API](https://user-images.githubusercontent.com/68607795/150320468-8106fbf8-0ac7-4b25-a396-acc399388eed.png)
 
 
