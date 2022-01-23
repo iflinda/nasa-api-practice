@@ -76,23 +76,32 @@ cd nasa-api-practice
 npm install
 ```
 
-### 4. Build the production environment.
+### 4. Create a NASA API key by registering for one on their website.
+```
+https://api.nasa.gov/
+```
+
+### 5. Create an .env file and save your API key.
+```
+REACT_APP_NASA_API_KEY = enter_your_key_here
+```
+
+### 6. Build the production environment.
 ```
 npm run build
 ```
 
-### 5. Run the application on a local server.
+### 7. Run the application on a local server.
 ```
 npm start
 ```
 
-### 6. Open a web browser and type: 
+### 8. Open a web browser and type: 
 ```
 http://localhost:3000/
-
 ```
 
-### 7. Enjoy! 🎉
+### 9. Enjoy! 🎉
 
 ## Connect with Me
 
