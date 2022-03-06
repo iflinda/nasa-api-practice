@@ -3,24 +3,26 @@ module.exports = {
         browser: true,
         es2021: true,
     },
-    extends: ["plugin:react/recommended", "plugin:prettier/recommended"],
+    extends: [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+    ],
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
         },
-        ecmaVersion: 12,
+        ecmaVersion: "latest",
         sourceType: "module",
     },
     plugins: ["react"],
     rules: {
         "react/react-in-jsx-scope": "off",
-        "react/jsx-filename-extension": [0],
-        "no-param-reassign": [2, { props: false }],
-        "import/extensions": "off",
         "prettier/prettier": [
-            "warn",
+            "error",
             {
                 endOfLine: "auto",
+                printWidth: 200,
             },
         ],
     },
