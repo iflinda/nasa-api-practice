@@ -1,6 +1,4 @@
 # Front End Development Intern Challenge for Shopify 2022
-🌐 [Website Link](https://shopify-2022-internship.herokuapp.com/)
-
 🎨 [Figma Link](https://www.figma.com/file/5whvoEmtXZCiNrVxA8pkcS/Shopify-Front-End-Developer-Intern-Challenge?node-id=0%3A1)
 
 This project was submitted for the Front End Evelopment Intern Challenge for Shopify in 2022. Our task was to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
