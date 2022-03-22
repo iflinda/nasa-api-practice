@@ -1,9 +1,9 @@
-# Front End Development Intern Challenge for Shopify 2022
+# Spaceroid
 
 🌐 [Site Link](https://spaceroid.netlify.app/)
 🎨 [Figma Link](https://www.figma.com/file/5whvoEmtXZCiNrVxA8pkcS/Shopify-Front-End-Developer-Intern-Challenge?node-id=0%3A1)
 
-This project was submitted for the Front End Evelopment Intern Challenge for Shopify in 2022. Our task was to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
+This web application is meant to share photos using NASA's API (https://api.nasa.gov/). Using the API we were supposed to present the photos to the user in away way we awnted as long as the image contained a title, date, and the ability for the user to like or dislike a photo. I spent time creating a prototype before coding out an iteration for the challenge. I learned a lot through the challenge, and I'm glad that I got to particpate.
 
 ## Live Demo
 ![Spaceroid Landing Page Live Demo that has an astronaut on a reddish planet](https://user-images.githubusercontent.com/68607795/150509033-b619bc54-c351-44f2-9ebb-b120fde37237.png)
@@ -15,7 +15,7 @@ This project was submitted for the Front End Evelopment Intern Challenge for Sho
 
 ## Notables
 
-Since Shopify is focuses on providing their clients with clean UI & UX while also having strong values in accessibility, I wanted to make sure that my application kept this in mind. I was introduced to a great tool called Lighthouse in the Chrome Developer tools, and I was able to really narrow down what areas that I had to focus on.
+This application focuses on providing their clients with clean UI & UX while also having strong values in accessibility, I wanted to make sure that my application kept this in mind. I was introduced to a great tool called Lighthouse in the Chrome Developer tools, and I was able to really narrow down what areas that I had to focus on.
 
 Based on the feedback that I received from the tool, I was able to better pinpoint areas that I had overlooked while developing the application. By the end of the submission, I had a web application that scored well in SEO, Accessible, and Best Practices.
 
