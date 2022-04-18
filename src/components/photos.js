@@ -79,7 +79,7 @@ export default class Photos extends Component {
             <div className="flex flex-row flex-wrap justify-center">
                 {this.state.photos.map((results) => {
                     return (
-                        <div key={index}>
+                        <div key={results.index}>
                             <LazyLoad placeholder={<Loading />}>
                                 <article className="w-fit bg-white p-6 m-6 rounded-lg">
                                     <h2 className="my-3">{results.title}</h2>
